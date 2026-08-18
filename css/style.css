@@ -51,6 +51,7 @@ h1 {
 	color: var(--muted);
 	font-size: clamp(1rem, 2.4vw, 1.125rem);
 	line-height: 1.7;
+	text-align: justify;
 }
 
 .bio em {

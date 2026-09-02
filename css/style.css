@@ -108,6 +108,19 @@ h1 {
 	font-weight: 500;
 }
 
+.bio a {
+	color: var(--text);
+	text-decoration: underline;
+	text-underline-offset: 0.18em;
+	transition: color 0.15s ease;
+}
+
+.bio a:hover,
+.bio a:focus-visible {
+	color: var(--accent);
+	outline: none;
+}
+
 main nav {
 	display: flex;
 	flex-wrap: wrap;
